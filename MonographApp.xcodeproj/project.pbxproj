@@ -6,20 +6,380 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D4122E0E1D04F71700080655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4122E0D1D04F71700080655 /* AppDelegate.swift */; };
+		D4122E101D04F71700080655 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4122E0F1D04F71700080655 /* ViewController.swift */; };
+		D4122E121D04F71700080655 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4122E111D04F71700080655 /* Document.swift */; };
+		D4122E141D04F71700080655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4122E131D04F71700080655 /* Assets.xcassets */; };
+		D4122E171D04F71700080655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4122E151D04F71700080655 /* Main.storyboard */; };
+		D4122E221D04F71700080655 /* MonographApp_macosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4122E211D04F71700080655 /* MonographApp_macosTests.swift */; };
+		D4122E2D1D04F71700080655 /* MonographApp_macosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4122E2C1D04F71700080655 /* MonographApp_macosUITests.swift */; };
+		D4122E3F1D04F85900080655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4122E3E1D04F85900080655 /* AppDelegate.swift */; };
+		D4122E411D04F85900080655 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4122E401D04F85900080655 /* ViewController.swift */; };
+		D4122E441D04F85900080655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4122E421D04F85900080655 /* Main.storyboard */; };
+		D4122E461D04F85900080655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4122E451D04F85900080655 /* Assets.xcassets */; };
+		D4122E491D04F85900080655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4122E471D04F85900080655 /* LaunchScreen.storyboard */; };
+		D4122E541D04F85900080655 /* MonographApp_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4122E531D04F85900080655 /* MonographApp_iosTests.swift */; };
+		D4122E5F1D04F85900080655 /* MonographApp_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4122E5E1D04F85900080655 /* MonographApp_iosUITests.swift */; };
+		D435D7261D07353800DA49C2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D435D7241D07353800DA49C2 /* LICENSE */; };
+		D435D7271D07353800DA49C2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D435D7251D07353800DA49C2 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4122E1E1D04F71700080655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4122E001D04F6FB00080655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4122E091D04F71700080655;
+			remoteInfo = MonographApp_macos;
+		};
+		D4122E291D04F71700080655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4122E001D04F6FB00080655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4122E091D04F71700080655;
+			remoteInfo = MonographApp_macos;
+		};
+		D4122E501D04F85900080655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4122E001D04F6FB00080655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4122E3B1D04F85900080655;
+			remoteInfo = MonographApp_ios;
+		};
+		D4122E5B1D04F85900080655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4122E001D04F6FB00080655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4122E3B1D04F85900080655;
+			remoteInfo = MonographApp_ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4122E0A1D04F71700080655 /* Monograph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monograph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4122E0D1D04F71700080655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4122E0F1D04F71700080655 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4122E111D04F71700080655 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		D4122E131D04F71700080655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4122E161D04F71700080655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4122E181D04F71700080655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4122E1D1D04F71700080655 /* MonographApp_macosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonographApp_macosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4122E211D04F71700080655 /* MonographApp_macosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonographApp_macosTests.swift; sourceTree = "<group>"; };
+		D4122E231D04F71700080655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4122E281D04F71700080655 /* MonographApp_macosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonographApp_macosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4122E2C1D04F71700080655 /* MonographApp_macosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonographApp_macosUITests.swift; sourceTree = "<group>"; };
+		D4122E2E1D04F71700080655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4122E3C1D04F85900080655 /* Monograph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monograph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4122E3E1D04F85900080655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4122E401D04F85900080655 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4122E431D04F85900080655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4122E451D04F85900080655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4122E481D04F85900080655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4122E4A1D04F85900080655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4122E4F1D04F85900080655 /* MonographApp_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonographApp_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4122E531D04F85900080655 /* MonographApp_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonographApp_iosTests.swift; sourceTree = "<group>"; };
+		D4122E551D04F85900080655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4122E5A1D04F85900080655 /* MonographApp_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonographApp_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4122E5E1D04F85900080655 /* MonographApp_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonographApp_iosUITests.swift; sourceTree = "<group>"; };
+		D4122E601D04F85900080655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D435D7241D07353800DA49C2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D435D7251D07353800DA49C2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4122E071D04F71700080655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4122E1A1D04F71700080655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4122E251D04F71700080655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4122E391D04F85900080655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4122E4C1D04F85900080655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4122E571D04F85900080655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		D4122DFF1D04F6FB00080655 = {
 			isa = PBXGroup;
 			children = (
+				D435D7251D07353800DA49C2 /* README.md */,
+				D435D7241D07353800DA49C2 /* LICENSE */,
+				D4122E0C1D04F71700080655 /* MonographApp_macos */,
+				D4122E3D1D04F85900080655 /* MonographApp_ios */,
+				D4122E6A1D04F8EA00080655 /* Unit Tests */,
+				D4122E6B1D04F8F400080655 /* UI Tests */,
+				D4122E0B1D04F71700080655 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		D4122E0B1D04F71700080655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4122E0A1D04F71700080655 /* Monograph.app */,
+				D4122E1D1D04F71700080655 /* MonographApp_macosTests.xctest */,
+				D4122E281D04F71700080655 /* MonographApp_macosUITests.xctest */,
+				D4122E3C1D04F85900080655 /* Monograph.app */,
+				D4122E4F1D04F85900080655 /* MonographApp_iosTests.xctest */,
+				D4122E5A1D04F85900080655 /* MonographApp_iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4122E0C1D04F71700080655 /* MonographApp_macos */ = {
+			isa = PBXGroup;
+			children = (
+				D4122E0D1D04F71700080655 /* AppDelegate.swift */,
+				D4122E0F1D04F71700080655 /* ViewController.swift */,
+				D4122E111D04F71700080655 /* Document.swift */,
+				D4122E131D04F71700080655 /* Assets.xcassets */,
+				D4122E151D04F71700080655 /* Main.storyboard */,
+				D4122E181D04F71700080655 /* Info.plist */,
+			);
+			path = MonographApp_macos;
+			sourceTree = "<group>";
+		};
+		D4122E201D04F71700080655 /* MonographApp_macosTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4122E211D04F71700080655 /* MonographApp_macosTests.swift */,
+				D4122E231D04F71700080655 /* Info.plist */,
+			);
+			path = MonographApp_macosTests;
+			sourceTree = "<group>";
+		};
+		D4122E2B1D04F71700080655 /* MonographApp_macosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4122E2C1D04F71700080655 /* MonographApp_macosUITests.swift */,
+				D4122E2E1D04F71700080655 /* Info.plist */,
+			);
+			path = MonographApp_macosUITests;
+			sourceTree = "<group>";
+		};
+		D4122E3D1D04F85900080655 /* MonographApp_ios */ = {
+			isa = PBXGroup;
+			children = (
+				D4122E3E1D04F85900080655 /* AppDelegate.swift */,
+				D4122E401D04F85900080655 /* ViewController.swift */,
+				D4122E421D04F85900080655 /* Main.storyboard */,
+				D4122E451D04F85900080655 /* Assets.xcassets */,
+				D4122E471D04F85900080655 /* LaunchScreen.storyboard */,
+				D4122E4A1D04F85900080655 /* Info.plist */,
+			);
+			path = MonographApp_ios;
+			sourceTree = "<group>";
+		};
+		D4122E521D04F85900080655 /* MonographApp_iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4122E531D04F85900080655 /* MonographApp_iosTests.swift */,
+				D4122E551D04F85900080655 /* Info.plist */,
+			);
+			path = MonographApp_iosTests;
+			sourceTree = "<group>";
+		};
+		D4122E5D1D04F85900080655 /* MonographApp_iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4122E5E1D04F85900080655 /* MonographApp_iosUITests.swift */,
+				D4122E601D04F85900080655 /* Info.plist */,
+			);
+			path = MonographApp_iosUITests;
+			sourceTree = "<group>";
+		};
+		D4122E6A1D04F8EA00080655 /* Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D4122E201D04F71700080655 /* MonographApp_macosTests */,
+				D4122E521D04F85900080655 /* MonographApp_iosTests */,
+			);
+			name = "Unit Tests";
+			sourceTree = "<group>";
+		};
+		D4122E6B1D04F8F400080655 /* UI Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D4122E2B1D04F71700080655 /* MonographApp_macosUITests */,
+				D4122E5D1D04F85900080655 /* MonographApp_iosUITests */,
+			);
+			name = "UI Tests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4122E091D04F71700080655 /* MonographApp_macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4122E2F1D04F71700080655 /* Build configuration list for PBXNativeTarget "MonographApp_macos" */;
+			buildPhases = (
+				D4122E061D04F71700080655 /* Sources */,
+				D4122E071D04F71700080655 /* Frameworks */,
+				D4122E081D04F71700080655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonographApp_macos;
+			productName = MonographApp_macos;
+			productReference = D4122E0A1D04F71700080655 /* Monograph.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4122E1C1D04F71700080655 /* MonographApp_macosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4122E321D04F71700080655 /* Build configuration list for PBXNativeTarget "MonographApp_macosTests" */;
+			buildPhases = (
+				D4122E191D04F71700080655 /* Sources */,
+				D4122E1A1D04F71700080655 /* Frameworks */,
+				D4122E1B1D04F71700080655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4122E1F1D04F71700080655 /* PBXTargetDependency */,
+			);
+			name = MonographApp_macosTests;
+			productName = MonographApp_macosTests;
+			productReference = D4122E1D1D04F71700080655 /* MonographApp_macosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4122E271D04F71700080655 /* MonographApp_macosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4122E351D04F71700080655 /* Build configuration list for PBXNativeTarget "MonographApp_macosUITests" */;
+			buildPhases = (
+				D4122E241D04F71700080655 /* Sources */,
+				D4122E251D04F71700080655 /* Frameworks */,
+				D4122E261D04F71700080655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4122E2A1D04F71700080655 /* PBXTargetDependency */,
+			);
+			name = MonographApp_macosUITests;
+			productName = MonographApp_macosUITests;
+			productReference = D4122E281D04F71700080655 /* MonographApp_macosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D4122E3B1D04F85900080655 /* MonographApp_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4122E611D04F85900080655 /* Build configuration list for PBXNativeTarget "MonographApp_ios" */;
+			buildPhases = (
+				D4122E381D04F85900080655 /* Sources */,
+				D4122E391D04F85900080655 /* Frameworks */,
+				D4122E3A1D04F85900080655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonographApp_ios;
+			productName = MonographApp_ios;
+			productReference = D4122E3C1D04F85900080655 /* Monograph.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4122E4E1D04F85900080655 /* MonographApp_iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4122E641D04F85900080655 /* Build configuration list for PBXNativeTarget "MonographApp_iosTests" */;
+			buildPhases = (
+				D4122E4B1D04F85900080655 /* Sources */,
+				D4122E4C1D04F85900080655 /* Frameworks */,
+				D4122E4D1D04F85900080655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4122E511D04F85900080655 /* PBXTargetDependency */,
+			);
+			name = MonographApp_iosTests;
+			productName = MonographApp_iosTests;
+			productReference = D4122E4F1D04F85900080655 /* MonographApp_iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4122E591D04F85900080655 /* MonographApp_iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4122E671D04F85900080655 /* Build configuration list for PBXNativeTarget "MonographApp_iosUITests" */;
+			buildPhases = (
+				D4122E561D04F85900080655 /* Sources */,
+				D4122E571D04F85900080655 /* Frameworks */,
+				D4122E581D04F85900080655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4122E5C1D04F85900080655 /* PBXTargetDependency */,
+			);
+			name = MonographApp_iosUITests;
+			productName = MonographApp_iosUITests;
+			productReference = D4122E5A1D04F85900080655 /* MonographApp_iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D4122E001D04F6FB00080655 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					D4122E091D04F71700080655 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D4122E1C1D04F71700080655 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D4122E091D04F71700080655;
+					};
+					D4122E271D04F71700080655 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D4122E091D04F71700080655;
+					};
+					D4122E3B1D04F85900080655 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D4122E4E1D04F85900080655 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D4122E3B1D04F85900080655;
+					};
+					D4122E591D04F85900080655 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D4122E3B1D04F85900080655;
+					};
+				};
 			};
 			buildConfigurationList = D4122E031D04F6FB00080655 /* Build configuration list for PBXProject "MonographApp" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -27,25 +387,744 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D4122DFF1D04F6FB00080655;
+			productRefGroup = D4122E0B1D04F71700080655 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				D4122E091D04F71700080655 /* MonographApp_macos */,
+				D4122E1C1D04F71700080655 /* MonographApp_macosTests */,
+				D4122E271D04F71700080655 /* MonographApp_macosUITests */,
+				D4122E3B1D04F85900080655 /* MonographApp_ios */,
+				D4122E4E1D04F85900080655 /* MonographApp_iosTests */,
+				D4122E591D04F85900080655 /* MonographApp_iosUITests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4122E081D04F71700080655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D435D7261D07353800DA49C2 /* LICENSE in Resources */,
+				D4122E141D04F71700080655 /* Assets.xcassets in Resources */,
+				D4122E171D04F71700080655 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4122E1B1D04F71700080655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4122E261D04F71700080655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4122E3A1D04F85900080655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4122E491D04F85900080655 /* LaunchScreen.storyboard in Resources */,
+				D4122E461D04F85900080655 /* Assets.xcassets in Resources */,
+				D4122E441D04F85900080655 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4122E4D1D04F85900080655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4122E581D04F85900080655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4122E061D04F71700080655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4122E101D04F71700080655 /* ViewController.swift in Sources */,
+				D4122E0E1D04F71700080655 /* AppDelegate.swift in Sources */,
+				D435D7271D07353800DA49C2 /* README.md in Sources */,
+				D4122E121D04F71700080655 /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4122E191D04F71700080655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4122E221D04F71700080655 /* MonographApp_macosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4122E241D04F71700080655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4122E2D1D04F71700080655 /* MonographApp_macosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4122E381D04F85900080655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4122E411D04F85900080655 /* ViewController.swift in Sources */,
+				D4122E3F1D04F85900080655 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4122E4B1D04F85900080655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4122E541D04F85900080655 /* MonographApp_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4122E561D04F85900080655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4122E5F1D04F85900080655 /* MonographApp_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4122E1F1D04F71700080655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4122E091D04F71700080655 /* MonographApp_macos */;
+			targetProxy = D4122E1E1D04F71700080655 /* PBXContainerItemProxy */;
+		};
+		D4122E2A1D04F71700080655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4122E091D04F71700080655 /* MonographApp_macos */;
+			targetProxy = D4122E291D04F71700080655 /* PBXContainerItemProxy */;
+		};
+		D4122E511D04F85900080655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4122E3B1D04F85900080655 /* MonographApp_ios */;
+			targetProxy = D4122E501D04F85900080655 /* PBXContainerItemProxy */;
+		};
+		D4122E5C1D04F85900080655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4122E3B1D04F85900080655 /* MonographApp_ios */;
+			targetProxy = D4122E5B1D04F85900080655 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4122E151D04F71700080655 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4122E161D04F71700080655 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4122E421D04F85900080655 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4122E431D04F85900080655 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4122E471D04F85900080655 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4122E481D04F85900080655 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D4122E041D04F6FB00080655 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 			};
 			name = Debug;
 		};
 		D4122E051D04F6FB00080655 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+			};
+			name = Release;
+		};
+		D4122E301D04F71700080655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MonographApp_macos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.donm.Monograph;
+				PRODUCT_NAME = Monograph;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4122E311D04F71700080655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MonographApp_macos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.donm.Monograph;
+				PRODUCT_NAME = Monograph;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D4122E331D04F71700080655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MonographApp_macosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.donm.MonographApp-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonographApp_macos.app/Contents/MacOS/MonographApp_macos";
+			};
+			name = Debug;
+		};
+		D4122E341D04F71700080655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MonographApp_macosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.donm.MonographApp-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonographApp_macos.app/Contents/MacOS/MonographApp_macos";
+			};
+			name = Release;
+		};
+		D4122E361D04F71700080655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MonographApp_macosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.donm.MonographApp-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = MonographApp_macos;
+			};
+			name = Debug;
+		};
+		D4122E371D04F71700080655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MonographApp_macosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.donm.MonographApp-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = MonographApp_macos;
+			};
+			name = Release;
+		};
+		D4122E621D04F85900080655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MonographApp_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.donm.Monograph;
+				PRODUCT_NAME = Monograph;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4122E631D04F85900080655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MonographApp_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.donm.Monograph;
+				PRODUCT_NAME = Monograph;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4122E651D04F85900080655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MonographApp_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.donm.MonographApp-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonographApp_ios.app/MonographApp_ios";
+			};
+			name = Debug;
+		};
+		D4122E661D04F85900080655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MonographApp_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.donm.MonographApp-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonographApp_ios.app/MonographApp_ios";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4122E681D04F85900080655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MonographApp_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.donm.MonographApp-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_TARGET_NAME = MonographApp_ios;
+			};
+			name = Debug;
+		};
+		D4122E691D04F85900080655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MonographApp_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.donm.MonographApp-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_TARGET_NAME = MonographApp_ios;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -57,6 +1136,60 @@
 			buildConfigurations = (
 				D4122E041D04F6FB00080655 /* Debug */,
 				D4122E051D04F6FB00080655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4122E2F1D04F71700080655 /* Build configuration list for PBXNativeTarget "MonographApp_macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4122E301D04F71700080655 /* Debug */,
+				D4122E311D04F71700080655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4122E321D04F71700080655 /* Build configuration list for PBXNativeTarget "MonographApp_macosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4122E331D04F71700080655 /* Debug */,
+				D4122E341D04F71700080655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4122E351D04F71700080655 /* Build configuration list for PBXNativeTarget "MonographApp_macosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4122E361D04F71700080655 /* Debug */,
+				D4122E371D04F71700080655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4122E611D04F85900080655 /* Build configuration list for PBXNativeTarget "MonographApp_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4122E621D04F85900080655 /* Debug */,
+				D4122E631D04F85900080655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4122E641D04F85900080655 /* Build configuration list for PBXNativeTarget "MonographApp_iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4122E651D04F85900080655 /* Debug */,
+				D4122E661D04F85900080655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4122E671D04F85900080655 /* Build configuration list for PBXNativeTarget "MonographApp_iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4122E681D04F85900080655 /* Debug */,
+				D4122E691D04F85900080655 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
