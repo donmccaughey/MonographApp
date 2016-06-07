@@ -21,8 +21,10 @@
 		D4122E491D04F85900080655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4122E471D04F85900080655 /* LaunchScreen.storyboard */; };
 		D4122E541D04F85900080655 /* MonographApp_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4122E531D04F85900080655 /* MonographApp_iosTests.swift */; };
 		D4122E5F1D04F85900080655 /* MonographApp_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4122E5E1D04F85900080655 /* MonographApp_iosUITests.swift */; };
-		D435D7261D07353800DA49C2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D435D7241D07353800DA49C2 /* LICENSE */; };
-		D435D7271D07353800DA49C2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D435D7251D07353800DA49C2 /* README.md */; };
+		D435D7331D0736D300DA49C2 /* monograph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D435D7311D07369800DA49C2 /* monograph.framework */; };
+		D435D7341D0736D300DA49C2 /* monograph.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D435D7311D07369800DA49C2 /* monograph.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D435D7381D0736F500DA49C2 /* monograph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D435D72F1D07369800DA49C2 /* monograph.framework */; };
+		D435D7391D0736F500DA49C2 /* monograph.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D435D72F1D07369800DA49C2 /* monograph.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +56,60 @@
 			remoteGlobalIDString = D4122E3B1D04F85900080655;
 			remoteInfo = MonographApp_ios;
 		};
+		D435D72E1D07369800DA49C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D435D7281D07369800DA49C2 /* libmonograph.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D40106391D04AE0D0014E454;
+			remoteInfo = monograph_ios;
+		};
+		D435D7301D07369800DA49C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D435D7281D07369800DA49C2 /* libmonograph.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D402A9381D0265AF0052F583;
+			remoteInfo = monograph_osx;
+		};
+		D435D7351D0736D300DA49C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D435D7281D07369800DA49C2 /* libmonograph.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D402A9371D0265AF0052F583;
+			remoteInfo = monograph_osx;
+		};
+		D435D73A1D0736F500DA49C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D435D7281D07369800DA49C2 /* libmonograph.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D40106381D04AE0D0014E454;
+			remoteInfo = monograph_ios;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D435D7371D0736D300DA49C2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D435D7341D0736D300DA49C2 /* monograph.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D435D73C1D0736F500DA49C2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D435D7391D0736F500DA49C2 /* monograph.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D4122E0A1D04F71700080655 /* Monograph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monograph.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +140,7 @@
 		D4122E601D04F85900080655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D435D7241D07353800DA49C2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D435D7251D07353800DA49C2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D435D7281D07369800DA49C2 /* libmonograph.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libmonograph.xcodeproj; path = libmonograph/libmonograph.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D435D7331D0736D300DA49C2 /* monograph.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D435D7381D0736F500DA49C2 /* monograph.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +194,7 @@
 		D4122DFF1D04F6FB00080655 = {
 			isa = PBXGroup;
 			children = (
+				D435D7281D07369800DA49C2 /* libmonograph.xcodeproj */,
 				D435D7251D07353800DA49C2 /* README.md */,
 				D435D7241D07353800DA49C2 /* LICENSE */,
 				D4122E0C1D04F71700080655 /* MonographApp_macos */,
@@ -239,6 +298,15 @@
 			name = "UI Tests";
 			sourceTree = "<group>";
 		};
+		D435D7291D07369800DA49C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D435D72F1D07369800DA49C2 /* monograph.framework */,
+				D435D7311D07369800DA49C2 /* monograph.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -249,10 +317,12 @@
 				D4122E061D04F71700080655 /* Sources */,
 				D4122E071D04F71700080655 /* Frameworks */,
 				D4122E081D04F71700080655 /* Resources */,
+				D435D7371D0736D300DA49C2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D435D7361D0736D300DA49C2 /* PBXTargetDependency */,
 			);
 			name = MonographApp_macos;
 			productName = MonographApp_macos;
@@ -302,10 +372,12 @@
 				D4122E381D04F85900080655 /* Sources */,
 				D4122E391D04F85900080655 /* Frameworks */,
 				D4122E3A1D04F85900080655 /* Resources */,
+				D435D73C1D0736F500DA49C2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D435D73B1D0736F500DA49C2 /* PBXTargetDependency */,
 			);
 			name = MonographApp_ios;
 			productName = MonographApp_ios;
@@ -392,6 +464,12 @@
 			mainGroup = D4122DFF1D04F6FB00080655;
 			productRefGroup = D4122E0B1D04F71700080655 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D435D7291D07369800DA49C2 /* Products */;
+					ProjectRef = D435D7281D07369800DA49C2 /* libmonograph.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D4122E091D04F71700080655 /* MonographApp_macos */,
@@ -404,12 +482,28 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		D435D72F1D07369800DA49C2 /* monograph.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = monograph.framework;
+			remoteRef = D435D72E1D07369800DA49C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D435D7311D07369800DA49C2 /* monograph.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = monograph.framework;
+			remoteRef = D435D7301D07369800DA49C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		D4122E081D04F71700080655 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D435D7261D07353800DA49C2 /* LICENSE in Resources */,
 				D4122E141D04F71700080655 /* Assets.xcassets in Resources */,
 				D4122E171D04F71700080655 /* Main.storyboard in Resources */,
 			);
@@ -462,7 +556,6 @@
 			files = (
 				D4122E101D04F71700080655 /* ViewController.swift in Sources */,
 				D4122E0E1D04F71700080655 /* AppDelegate.swift in Sources */,
-				D435D7271D07353800DA49C2 /* README.md in Sources */,
 				D4122E121D04F71700080655 /* Document.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,6 +623,16 @@
 			isa = PBXTargetDependency;
 			target = D4122E3B1D04F85900080655 /* MonographApp_ios */;
 			targetProxy = D4122E5B1D04F85900080655 /* PBXContainerItemProxy */;
+		};
+		D435D7361D0736D300DA49C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = monograph_osx;
+			targetProxy = D435D7351D0736D300DA49C2 /* PBXContainerItemProxy */;
+		};
+		D435D73B1D0736F500DA49C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = monograph_ios;
+			targetProxy = D435D73A1D0736F500DA49C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
