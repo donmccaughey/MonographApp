@@ -25,6 +25,8 @@
 		D435D7341D0736D300DA49C2 /* monograph.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D435D7311D07369800DA49C2 /* monograph.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D435D7381D0736F500DA49C2 /* monograph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D435D72F1D07369800DA49C2 /* monograph.framework */; };
 		D435D7391D0736F500DA49C2 /* monograph.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D435D72F1D07369800DA49C2 /* monograph.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D4A53E2C1D19C82100CF0312 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A53E2B1D19C82100CF0312 /* Errors.swift */; };
+		D4A53E2D1D19C82800CF0312 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A53E2B1D19C82100CF0312 /* Errors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +143,7 @@
 		D435D7241D07353800DA49C2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D435D7251D07353800DA49C2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D435D7281D07369800DA49C2 /* libmonograph.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libmonograph.xcodeproj; path = libmonograph/libmonograph.xcodeproj; sourceTree = "<group>"; };
+		D4A53E2B1D19C82100CF0312 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,8 +200,9 @@
 				D435D7281D07369800DA49C2 /* libmonograph.xcodeproj */,
 				D435D7251D07353800DA49C2 /* README.md */,
 				D435D7241D07353800DA49C2 /* LICENSE */,
-				D4122E0C1D04F71700080655 /* MonographApp_macos */,
+				D4A53E2A1D19C80600CF0312 /* MonographApp */,
 				D4122E3D1D04F85900080655 /* MonographApp_ios */,
+				D4122E0C1D04F71700080655 /* MonographApp_macos */,
 				D4122E6A1D04F8EA00080655 /* Unit Tests */,
 				D4122E6B1D04F8F400080655 /* UI Tests */,
 				D4122E0B1D04F71700080655 /* Products */,
@@ -222,11 +226,11 @@
 			isa = PBXGroup;
 			children = (
 				D4122E0D1D04F71700080655 /* AppDelegate.swift */,
-				D4122E0F1D04F71700080655 /* ViewController.swift */,
-				D4122E111D04F71700080655 /* Document.swift */,
 				D4122E131D04F71700080655 /* Assets.xcassets */,
-				D4122E151D04F71700080655 /* Main.storyboard */,
+				D4122E111D04F71700080655 /* Document.swift */,
 				D4122E181D04F71700080655 /* Info.plist */,
+				D4122E151D04F71700080655 /* Main.storyboard */,
+				D4122E0F1D04F71700080655 /* ViewController.swift */,
 			);
 			path = MonographApp_macos;
 			sourceTree = "<group>";
@@ -253,11 +257,11 @@
 			isa = PBXGroup;
 			children = (
 				D4122E3E1D04F85900080655 /* AppDelegate.swift */,
-				D4122E401D04F85900080655 /* ViewController.swift */,
-				D4122E421D04F85900080655 /* Main.storyboard */,
 				D4122E451D04F85900080655 /* Assets.xcassets */,
-				D4122E471D04F85900080655 /* LaunchScreen.storyboard */,
 				D4122E4A1D04F85900080655 /* Info.plist */,
+				D4122E471D04F85900080655 /* LaunchScreen.storyboard */,
+				D4122E421D04F85900080655 /* Main.storyboard */,
+				D4122E401D04F85900080655 /* ViewController.swift */,
 			);
 			path = MonographApp_ios;
 			sourceTree = "<group>";
@@ -305,6 +309,14 @@
 				D435D7311D07369800DA49C2 /* monograph.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D4A53E2A1D19C80600CF0312 /* MonographApp */ = {
+			isa = PBXGroup;
+			children = (
+				D4A53E2B1D19C82100CF0312 /* Errors.swift */,
+			);
+			path = MonographApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -554,6 +566,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A53E2C1D19C82100CF0312 /* Errors.swift in Sources */,
 				D4122E101D04F71700080655 /* ViewController.swift in Sources */,
 				D4122E0E1D04F71700080655 /* AppDelegate.swift in Sources */,
 				D4122E121D04F71700080655 /* Document.swift in Sources */,
@@ -581,6 +594,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4122E411D04F85900080655 /* ViewController.swift in Sources */,
+				D4A53E2D1D19C82800CF0312 /* Errors.swift in Sources */,
 				D4122E3F1D04F85900080655 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -724,6 +738,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = cc.donm.Monograph;
+				PRODUCT_MODULE_NAME = MonographApp;
 				PRODUCT_NAME = Monograph;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -767,6 +782,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = cc.donm.Monograph;
+				PRODUCT_MODULE_NAME = MonographApp;
 				PRODUCT_NAME = Monograph;
 				SDKROOT = macosx;
 			};
@@ -999,6 +1015,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = cc.donm.Monograph;
+				PRODUCT_MODULE_NAME = MonographApp;
 				PRODUCT_NAME = Monograph;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1042,6 +1059,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = cc.donm.Monograph;
+				PRODUCT_MODULE_NAME = MonographApp;
 				PRODUCT_NAME = Monograph;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
