@@ -30,33 +30,34 @@ class Document: NSDocument {
     override func makeWindowControllers() {
         // Returns the Storyboard that contains your Document window.
         let storyboard = NSStoryboard(name: "Main", bundle: nil)
-        let windowController = storyboard.instantiateControllerWithIdentifier("Document Window Controller") as! NSWindowController
+        let windowController = storyboard.instantiateController(withIdentifier: "Document Window Controller") as! NSWindowController
         self.addWindowController(windowController)
     }
 
-    override func dataOfType(typeName: String) throws -> NSData {
+    override func data(ofType typeName: String) throws -> Data {
         var length: Int32 = 0
         let string = mg_graph_alloc_string(graph, &length)
         if (string == nil) {
             throw NSError(domain: NSOSStatusErrorDomain, code: Int(errno), userInfo: nil)
         }
-        return NSData(bytesNoCopy: string, length: Int(length), freeWhenDone: true)
+        let bytes = UnsafeMutableRawPointer(string!)
+        return Data(bytesNoCopy: bytes, count: Int(length), deallocator: .free)
     }
 
-    override func readFromData(data: NSData, ofType typeName: String) throws {
+    override func read(from data: Data, ofType typeName: String) throws {
         NSLog("INFO: typeName = \"\(typeName)\"")
         var length: Int32 = 0
-        let string = UnsafePointer<Int8>(data.bytes)
+        let string = (data as NSData).bytes.bindMemory(to: Int8.self, capacity: data.count)
         let new_graph = mg_graph_alloc_from_string(string, &length)
         if (new_graph == nil) {
             throw NSError(domain: NSOSStatusErrorDomain, code: Int(errno), userInfo: nil)
         }
-        if Int(length) < data.length {
+        if Int(length) < data.count {
             // TODO: should we check unread bytes at end of file, or
             // should libmonograph do this?
-            NSLog("WARNING: did not read \(data.length - Int(length)) bytes of file")
+            NSLog("WARNING: did not read \(data.count - Int(length)) bytes of file")
         }
         mg_graph_free(graph)
-        graph = new_graph
+        graph = new_graph!
     }
 }
