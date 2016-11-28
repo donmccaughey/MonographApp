@@ -27,6 +27,7 @@
 		D435D7391D0736F500DA49C2 /* monograph.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D435D72F1D07369800DA49C2 /* monograph.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D4A53E2C1D19C82100CF0312 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A53E2B1D19C82100CF0312 /* Errors.swift */; };
 		D4A53E2D1D19C82800CF0312 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A53E2B1D19C82100CF0312 /* Errors.swift */; };
+		D4B000DF1DEBDC7D004423F2 /* TextCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B000DE1DEBDC7D004423F2 /* TextCanvasView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +145,7 @@
 		D435D7251D07353800DA49C2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D435D7281D07369800DA49C2 /* libmonograph.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libmonograph.xcodeproj; path = libmonograph/libmonograph.xcodeproj; sourceTree = "<group>"; };
 		D4A53E2B1D19C82100CF0312 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		D4B000DE1DEBDC7D004423F2 /* TextCanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCanvasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +232,7 @@
 				D4122E111D04F71700080655 /* Document.swift */,
 				D4122E181D04F71700080655 /* Info.plist */,
 				D4122E151D04F71700080655 /* Main.storyboard */,
+				D4B000DE1DEBDC7D004423F2 /* TextCanvasView.swift */,
 				D4122E0F1D04F71700080655 /* ViewController.swift */,
 			);
 			path = MonographApp_macos;
@@ -577,6 +580,7 @@
 			files = (
 				D4A53E2C1D19C82100CF0312 /* Errors.swift in Sources */,
 				D4122E101D04F71700080655 /* ViewController.swift in Sources */,
+				D4B000DF1DEBDC7D004423F2 /* TextCanvasView.swift in Sources */,
 				D4122E0E1D04F71700080655 /* AppDelegate.swift in Sources */,
 				D4122E121D04F71700080655 /* Document.swift in Sources */,
 			);

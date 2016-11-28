@@ -8,20 +8,17 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
 
+class ViewController: NSViewController {
+    var textCanvasView: TextCanvasView {
+        return self.view as! TextCanvasView
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
-        }
+    
+    func setDocument(document: Document) {
+        self.textCanvasView.document = document
     }
-
-
 }
-
