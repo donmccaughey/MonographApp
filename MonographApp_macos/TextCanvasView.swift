@@ -21,7 +21,7 @@ class TextCanvasView: NSView {
             return
         }
         
-        let graphicsContext = NSGraphicsContext.current()!
+        let graphicsContext = NSGraphicsContext.current!
         let context = graphicsContext.cgContext
         
         let font = NSFont.userFixedPitchFont(ofSize: 14.0)!
